@@ -15,3 +15,9 @@ div.style.cssText = 'border: solid black 2px; background-color: pink;';
 const h1 = document.createElement('h1');
 h1.textContent = 'I\'m in a div';
 div.appendChild(h1);
+
+const divPara = document.createElement('p');
+divPara.textContent = 'ME TOO!';
+div.appendChild(divPara);
+
+container.appendChild(div);
